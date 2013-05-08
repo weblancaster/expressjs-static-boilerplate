@@ -7,4 +7,4 @@ ExpressJS static boilerplate is a simple NodeJS Server using static files and di
 - Static directory and files
 - Nodemon
 - Grunt JS
-- No JADE
+- no Jade
