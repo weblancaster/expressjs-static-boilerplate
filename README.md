@@ -7,11 +7,11 @@ History
 -----------
 I wrote more than two Web Apps using NodeJS as a server so here's why I did the boilerplate.
 
-Some features
+Features
 -----------
 - Static directory and files
-- Nodemon
-- Grunt JS
+- Server monitor (nodemon)
+- Grunt JS (Files Watch, CSS min, JS uglify)
 - no Jade
 
 Usage
