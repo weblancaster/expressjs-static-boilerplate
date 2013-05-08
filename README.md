@@ -28,6 +28,16 @@ Run the server
 nodemon server.js
 ```
 
+To watch and build the minify and uglify automatic right after you do any change to your main files "app.js, app.css"
+```ruby
+grunt watch
+```
+
+Want to do manually?! no problem.
+```ruby
+grunt build
+```
+
 Open your browser on the address 'localhost:3000'
 
 Done!
