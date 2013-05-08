@@ -4,15 +4,15 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		watch: {
 			files: [
-				'public/stylesheets/*.css',
-				'public/javascripts/*.js'
+				'public/stylesheets/app.css',
+				'public/javascripts/app.js'
 			],
 			tasks: ['build']
 		},
 		uglify: {
 			my_target: {
 			  files: {
-			    'public/javascripts/app.min.js': ['public/javascripts/*.js']
+			    'public/javascripts/app.min.js': ['public/javascripts/app.js']
 			  }
 			}
 		},
