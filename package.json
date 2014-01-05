@@ -6,7 +6,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "3.2.3"
+    "express": "3.2.3",
+    "nodemon": "0.7.8"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
