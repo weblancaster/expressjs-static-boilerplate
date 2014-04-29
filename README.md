@@ -1,16 +1,12 @@
 Express JS Static Boilerplate
 ============================
 
-ExpressJS static boilerplate is a simple NodeJS Server using static files and directories for quick quality development and production.
-
-History
------------
-I wrote more than two Web Apps using NodeJS as a server so here's why I did the boilerplate.
+Express.js 4.0 Static Boilerplate is a simple Node.js Server using static files and directories for quick quality development and/or production.
 
 Features
 -----------
 - Static directory and files
-- Server monitor (nodemon)
+- Server watch for changes (Nodemon)
 - Grunt JS (Files Watch, CSS min, JS uglify)
 - no Jade
 
@@ -28,7 +24,7 @@ Run the server
 nodemon server.js
 ```
 
-To watch and build the minify and uglify automatic right after you do any change to your main files "app.js, app.css"
+To watch and run the Grunt.js task on any change to your main files "app.js, app.css"
 ```ruby
 grunt watch
 ```
