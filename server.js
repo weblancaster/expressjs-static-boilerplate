@@ -12,7 +12,7 @@ app.use(morgan('dev'));                     // log every request to the console
 app.use(bodyParser());                      // pull information from html in POST
 app.use(methodOverride());                  // simulate DELETE and PUT
 
-router.get('/views', function(req, res, next) {
+router.get('/', function(req, res, next) {
     res.render('index.html');
 });
 
